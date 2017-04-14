@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Gran",
+		"tags": "",
+		"body": "<<if visited(\"Sally\") is false>>\nYou: Hey Old Woman.\nOld Woman: I have a name. \nYou: Cool...\n<<else>>\nPlayer: Hey.\nOld Woman: Hi.\n<<endif>>\n\n<<if not visited(\"Gran.Watch\")>>\n[[Seen any monsters?|Gran.Monsters]]\n<<endif>>\n[[See you later.|Gran.Exit]]",
+		"position": {
+			"x": 524,
+			"y": 111
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Gran.Exit",
+		"tags": "",
+		"body": "OldWoman: Bye.",
+		"position": {
+			"x": 152,
+			"y": 322
+		},
+		"colorID": 6
+	},
+	{
+		"title": "EnterLevel",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 897,
+			"y": 118
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Gran.Monsters",
+		"tags": "",
+		"body": "OldWoman: Nope. Have You?",
+		"position": {
+			"x": 147,
+			"y": 100
+		},
+		"colorID": 0
+	}
+]
